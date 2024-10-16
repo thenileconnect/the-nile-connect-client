@@ -1,6 +1,6 @@
 import { FaClock, FaEnvelope, FaFacebookF, FaInstagram, FaLinkedin, FaMapMarkerAlt, FaPhone, FaTwitter } from "react-icons/fa";
+//import Image from "next/image"
 
-import Image from "next/image"
 export default function Footer(){
     return (
         <footer className="text-white pl-5 mt-40">

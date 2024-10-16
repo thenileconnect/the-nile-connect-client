@@ -19,11 +19,11 @@ export function LandingPage() {
             <Image src={Star} alt="Star" className="absolute bottom-10 right-1/4 w-6 h-6" />
             <div className="flex flex-col items-center justify-center px-4 h-screen">
           <h1 className="text-5xl sm:text-6xl md:text-8xl font-bold text-center max-w-4xl text-white">
-            Hire Africa's<br />Top Tech{" "}
+            Hire Africa&apos;s<br />Top Tech{" "}
             <span className="text-accent">Talents</span>
           </h1>
           <p className="mt-4 mb-8 text-sm sm:text-base max-w-xl text-center text-white">
-          Unlock the potential of Africa's top tech talent. Our platform connects you with skilled professionals ready to elevate your projects. Don't miss out on this opportunity to transform your team – join our waitlist today!
+          Unlock the potential of Africa&apos;s top tech talent. Our platform connects you with skilled professionals ready to elevate your projects. Don&apos;t miss out on this opportunity to transform your team – join our waitlist today!
           </p>
           <WaitlistButton />
         </div>

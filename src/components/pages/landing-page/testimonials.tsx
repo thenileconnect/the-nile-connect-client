@@ -98,7 +98,7 @@ export default function Testimonials() {
                                     </div>
                                 </div>
                                 <div className="text-center sm:text-left">
-                                    <p className="text-gray-100 mb-4 text-lg sm:text-xl italic leading-relaxed">"{testimonials[currentIndex].text}"</p>
+                                    <p className="text-gray-100 mb-4 text-lg sm:text-xl italic leading-relaxed">&quot;{testimonials[currentIndex].text}&quot;</p>
                                     <p className="text-white font-semibold text-lg">{testimonials[currentIndex].name}</p>
                                     <p className="text-[#B9FD50]">{testimonials[currentIndex].role}</p>
                                     <p className="text-white text-sm mt-1">{testimonials[currentIndex].companyName}</p>

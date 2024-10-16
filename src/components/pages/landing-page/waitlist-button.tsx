@@ -10,7 +10,7 @@ export function WaitlistButton() {
   ];
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    e.target.value
+    return e.target.value
   };
   const onSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
