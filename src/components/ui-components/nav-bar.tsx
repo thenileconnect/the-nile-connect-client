@@ -59,7 +59,7 @@ export function NavBar() {
             <div className="hidden lg:flex lg:items-center lg:w-auto">
                 <div className="lg:flex-grow">
                     {navItems.map((item, index) => (
-                        <Link key={index} href={item.href} className={`flex items-center lg:inline-flex lg:mt-0 font-bold mr-4 hover:text-accent transition-colors duration-200 ${hasScrolled ? 'text-white' : 'text-black dark:text-white'}`}>
+                        <Link key={index} href={item.href} className={`flex items-center lg:inline-flex lg:mt-0 font-bold mr-4 hover:text-accent transition-colors duration-200 text-white`}>
                             <item.icon className="mr-2" />
                             {item.label}
                         </Link>
