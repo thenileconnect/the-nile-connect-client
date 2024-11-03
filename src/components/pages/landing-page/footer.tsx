@@ -8,7 +8,7 @@ export default function Footer(){
           <div className="w-full md:w-1/5 mb-6 md:mb-0 text-center md:text-left flex flex-col justify-center space-y-8">
             <div className="text-2xl font-bold mb-2">NileConnect</div>
             <p className='text-xs opacity-70 pr-5'>
-            My Speciality Dental Clinic in Addis Ababa provides expert dental care with a focus on personalized service, advanced technology, and patient comfort.
+
             </p>
             <div className="flex justify-center md:justify-start mt-4 space-x-4">
               <a href="#" className="text-accent hover:text-gray-600"><FaFacebookF /></a>
